@@ -12,7 +12,7 @@ public class Client {
 
 			@Override
 			public void update(String msg) {
-				// TODO Auto-generated method stub
+				System.out.println("Crazy Msg:" + msg);
 				
 			}};
 			
