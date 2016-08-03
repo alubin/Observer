@@ -2,7 +2,7 @@ package com.learn.client;
 
 import com.learn.observer.Observer;
 import com.learn.observer.ObserverDefault;
-import com.learn.observer.Subscribe;
+import com.learn.subject.Publish;
 
 public class Client {
 
@@ -19,9 +19,9 @@ public class Client {
 			ObserverDefault obs2 = new ObserverDefault() {
 			};
 			
-		Subscribe sub = new Subscribe();
+		Publish sub = new Publish();
 		sub.register(obs);
-		sub.register((Observer) obs2);
+//		sub.register((Observer) obs2);
 	}
 
 }

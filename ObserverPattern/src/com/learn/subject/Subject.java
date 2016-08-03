@@ -12,5 +12,5 @@ import com.learn.observer.Observer;
 public interface Subject {
 	void register(Observer obs);
 	void remove(Observer obs);
-	void notifyObserver();
+	void notifyObserver(String msg);
 }
