@@ -37,5 +37,10 @@ public class MessageData implements Subject{
 		}
 		
 	}
+	
+	public void setData(String msg)
+	{
+		notifyObserver(msg);
+	}
 
 }
